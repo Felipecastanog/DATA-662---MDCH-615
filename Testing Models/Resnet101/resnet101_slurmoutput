@@ -1,0 +1,206 @@
+starting slurm
+Thu Apr 17 12:02:46 MDT 2025
+uid=315338591(nadeem.bishtawi) gid=315338591(nadeem.bishtawi) groups=315338591(nadeem.bishtawi),60000013(data622_2025w)
+start initialization
+finished initializing
+[I 2025-04-17 12:03:07,478] A new study created in memory with name: no-name-52b29dd7-5573-47f6-b7b3-c6c54ea264ef
+Downloading: "https://download.pytorch.org/models/resnet101-cd907fc2.pth" to /home/nadeem.bishtawi/.cache/torch/hub/checkpoints/resnet101-cd907fc2.pth
+  0%|          | 0.00/171M [00:00<?, ?B/s]  2%|▏         | 3.12M/171M [00:00<00:05, 31.1MB/s]  4%|▍         | 6.62M/171M [00:00<00:05, 33.9MB/s]  6%|▋         | 11.0M/171M [00:00<00:04, 39.2MB/s] 10%|▉         | 16.5M/171M [00:00<00:03, 46.3MB/s] 14%|█▍        | 23.5M/171M [00:00<00:02, 55.8MB/s] 19%|█▉        | 32.4M/171M [00:00<00:02, 68.3MB/s] 25%|██▍       | 41.9M/171M [00:00<00:01, 78.4MB/s] 30%|███       | 51.2M/171M [00:00<00:01, 84.6MB/s] 37%|███▋      | 62.4M/171M [00:00<00:01, 94.5MB/s] 43%|████▎     | 73.4M/171M [00:01<00:01, 101MB/s]  50%|████▉     | 84.6M/171M [00:01<00:00, 106MB/s] 56%|█████▌    | 95.8M/171M [00:01<00:00, 109MB/s] 63%|██████▎   | 107M/171M [00:01<00:00, 111MB/s]  69%|██████▉   | 118M/171M [00:01<00:00, 113MB/s] 76%|███████▌  | 129M/171M [00:01<00:00, 114MB/s] 82%|████████▏ | 140M/171M [00:01<00:00, 114MB/s] 89%|████████▉ | 152M/171M [00:01<00:00, 115MB/s] 95%|█████████▌| 163M/171M [00:01<00:00, 115MB/s]100%|██████████| 171M/171M [00:01<00:00, 94.6MB/s]
+[I 2025-04-17 12:29:15,075] Trial 0 finished with value: 0.8022705771050141 and parameters: {'hidden_size': 1024, 'dropout': 0.3945556212005879, 'lr': 0.00019012075168505437}. Best is trial 0 with value: 0.8022705771050141.
+[I 2025-04-17 12:55:12,872] Trial 1 finished with value: 0.8145695364238411 and parameters: {'hidden_size': 512, 'dropout': 0.46060939924546407, 'lr': 0.0002002232858724191}. Best is trial 1 with value: 0.8145695364238411.
+[I 2025-04-17 13:21:21,254] Trial 2 finished with value: 0.7842951750236519 and parameters: {'hidden_size': 256, 'dropout': 0.31661420939707724, 'lr': 7.768578809093875e-05}. Best is trial 1 with value: 0.8145695364238411.
+[I 2025-04-17 13:47:06,004] Trial 3 finished with value: 0.7738883632923368 and parameters: {'hidden_size': 1024, 'dropout': 0.4334111882954328, 'lr': 1.2388832178546405e-05}. Best is trial 1 with value: 0.8145695364238411.
+[I 2025-04-17 14:13:00,284] Trial 4 finished with value: 0.8051087984862819 and parameters: {'hidden_size': 1024, 'dropout': 0.4886370228704015, 'lr': 3.9427544806163094e-05}. Best is trial 1 with value: 0.8145695364238411.
+[I 2025-04-17 14:38:50,677] Trial 5 finished with value: 0.8098391674550615 and parameters: {'hidden_size': 256, 'dropout': 0.3645365130736219, 'lr': 0.000144923510044488}. Best is trial 1 with value: 0.8145695364238411.
+[I 2025-04-17 15:04:32,296] Trial 6 finished with value: 0.7909176915799432 and parameters: {'hidden_size': 256, 'dropout': 0.38446938791349244, 'lr': 0.0004305673393706248}. Best is trial 1 with value: 0.8145695364238411.
+[I 2025-04-17 15:30:44,847] Trial 7 finished with value: 0.7805108798486282 and parameters: {'hidden_size': 512, 'dropout': 0.3886419567160906, 'lr': 5.829516018034403e-05}. Best is trial 1 with value: 0.8145695364238411.
+[I 2025-04-17 15:56:48,652] Trial 8 finished with value: 0.7615894039735099 and parameters: {'hidden_size': 1024, 'dropout': 0.480809705784638, 'lr': 0.000904397282787078}. Best is trial 1 with value: 0.8145695364238411.
+[I 2025-04-17 16:22:42,875] Trial 9 finished with value: 0.7890255439924314 and parameters: {'hidden_size': 256, 'dropout': 0.40696957945724677, 'lr': 4.447893148283594e-05}. Best is trial 1 with value: 0.8145695364238411.
+[I 2025-04-17 16:48:29,171] Trial 10 finished with value: 0.7417218543046358 and parameters: {'hidden_size': 512, 'dropout': 0.44683244656030363, 'lr': 0.00029613724551769724}. Best is trial 1 with value: 0.8145695364238411.
+[I 2025-04-17 17:14:33,297] Trial 11 finished with value: 0.8003784295175024 and parameters: {'hidden_size': 512, 'dropout': 0.34090364269466167, 'lr': 0.00015805405068044666}. Best is trial 1 with value: 0.8145695364238411.
+[I 2025-04-17 17:40:22,981] Trial 12 finished with value: 0.8315988647114475 and parameters: {'hidden_size': 512, 'dropout': 0.3492218062494469, 'lr': 0.00013272334531614204}. Best is trial 12 with value: 0.8315988647114475.
+[I 2025-04-17 18:06:17,330] Trial 13 finished with value: 0.7918637653736992 and parameters: {'hidden_size': 512, 'dropout': 0.3015417629118051, 'lr': 0.00040204744944451036}. Best is trial 12 with value: 0.8315988647114475.
+[I 2025-04-17 18:32:17,587] Trial 14 finished with value: 0.783349101229896 and parameters: {'hidden_size': 512, 'dropout': 0.4516803840053958, 'lr': 1.6498260732556307e-05}. Best is trial 12 with value: 0.8315988647114475.
+[I 2025-04-17 18:58:34,816] Trial 15 finished with value: 0.760643330179754 and parameters: {'hidden_size': 512, 'dropout': 0.3416367931331537, 'lr': 0.0008532400945580402}. Best is trial 12 with value: 0.8315988647114475.
+[I 2025-04-17 19:24:22,281] Trial 16 finished with value: 0.7625354777672658 and parameters: {'hidden_size': 512, 'dropout': 0.4180320738984318, 'lr': 0.0001036619908136059}. Best is trial 12 with value: 0.8315988647114475.
+[I 2025-04-17 19:50:20,681] Trial 17 finished with value: 0.7928098391674551 and parameters: {'hidden_size': 512, 'dropout': 0.46762365248751614, 'lr': 2.675228215508062e-05}. Best is trial 12 with value: 0.8315988647114475.
+[I 2025-04-17 20:16:16,577] Trial 18 finished with value: 0.7899716177861873 and parameters: {'hidden_size': 512, 'dropout': 0.3641062493651286, 'lr': 0.0002500372319071068}. Best is trial 12 with value: 0.8315988647114475.
+[I 2025-04-17 20:41:48,994] Trial 19 finished with value: 0.7918637653736992 and parameters: {'hidden_size': 512, 'dropout': 0.4970950159447747, 'lr': 0.00010336966733949897}. Best is trial 12 with value: 0.8315988647114475.
+
+📊 Evaluation Metrics:
+Final Accuracy      : 0.8023
+Best Micro F1       : 0.8023
+Best Micro Precision: 0.8023
+Best Micro Recall   : 0.8023
+Best Micro AUC      : 0.9300
+Final Average Loss  : 0.5137
+
+📊 Evaluation Metrics:
+Final Accuracy      : 0.8146
+Best Micro F1       : 0.8146
+Best Micro Precision: 0.8146
+Best Micro Recall   : 0.8146
+Best Micro AUC      : 0.9436
+Final Average Loss  : 0.4658
+
+📊 Evaluation Metrics:
+Final Accuracy      : 0.7843
+Best Micro F1       : 0.7843
+Best Micro Precision: 0.7843
+Best Micro Recall   : 0.7843
+Best Micro AUC      : 0.9352
+Final Average Loss  : 0.4774
+
+📊 Evaluation Metrics:
+Final Accuracy      : 0.7739
+Best Micro F1       : 0.7739
+Best Micro Precision: 0.7739
+Best Micro Recall   : 0.7739
+Best Micro AUC      : 0.9161
+Final Average Loss  : 0.5460
+
+📊 Evaluation Metrics:
+Final Accuracy      : 0.8051
+Best Micro F1       : 0.8051
+Best Micro Precision: 0.8051
+Best Micro Recall   : 0.8051
+Best Micro AUC      : 0.9385
+Final Average Loss  : 0.4672
+
+📊 Evaluation Metrics:
+Final Accuracy      : 0.8098
+Best Micro F1       : 0.8098
+Best Micro Precision: 0.8098
+Best Micro Recall   : 0.8098
+Best Micro AUC      : 0.9402
+Final Average Loss  : 0.4842
+
+📊 Evaluation Metrics:
+Final Accuracy      : 0.7909
+Best Micro F1       : 0.7909
+Best Micro Precision: 0.7909
+Best Micro Recall   : 0.7909
+Best Micro AUC      : 0.9266
+Final Average Loss  : 0.5012
+
+📊 Evaluation Metrics:
+Final Accuracy      : 0.7805
+Best Micro F1       : 0.7805
+Best Micro Precision: 0.7805
+Best Micro Recall   : 0.7805
+Best Micro AUC      : 0.9219
+Final Average Loss  : 0.5690
+
+📊 Evaluation Metrics:
+Final Accuracy      : 0.7616
+Best Micro F1       : 0.7616
+Best Micro Precision: 0.7616
+Best Micro Recall   : 0.7616
+Best Micro AUC      : 0.9103
+Final Average Loss  : 0.5746
+
+📊 Evaluation Metrics:
+Final Accuracy      : 0.7890
+Best Micro F1       : 0.7890
+Best Micro Precision: 0.7890
+Best Micro Recall   : 0.7890
+Best Micro AUC      : 0.9334
+Final Average Loss  : 0.4962
+
+📊 Evaluation Metrics:
+Final Accuracy      : 0.7417
+Best Micro F1       : 0.7417
+Best Micro Precision: 0.7417
+Best Micro Recall   : 0.7417
+Best Micro AUC      : 0.8998
+Final Average Loss  : 0.6108
+
+📊 Evaluation Metrics:
+Final Accuracy      : 0.8004
+Best Micro F1       : 0.8004
+Best Micro Precision: 0.8004
+Best Micro Recall   : 0.8004
+Best Micro AUC      : 0.9391
+Final Average Loss  : 0.4615
+
+📊 Evaluation Metrics:
+Final Accuracy      : 0.8316
+Best Micro F1       : 0.8316
+Best Micro Precision: 0.8316
+Best Micro Recall   : 0.8316
+Best Micro AUC      : 0.9475
+Final Average Loss  : 0.4319
+
+📊 Evaluation Metrics:
+Final Accuracy      : 0.7919
+Best Micro F1       : 0.7919
+Best Micro Precision: 0.7919
+Best Micro Recall   : 0.7919
+Best Micro AUC      : 0.9298
+Final Average Loss  : 0.5141
+
+📊 Evaluation Metrics:
+Final Accuracy      : 0.7833
+Best Micro F1       : 0.7833
+Best Micro Precision: 0.7833
+Best Micro Recall   : 0.7833
+Best Micro AUC      : 0.9228
+Final Average Loss  : 0.5239
+
+📊 Evaluation Metrics:
+Final Accuracy      : 0.7606
+Best Micro F1       : 0.7606
+Best Micro Precision: 0.7606
+Best Micro Recall   : 0.7606
+Best Micro AUC      : 0.8999
+Final Average Loss  : 0.6518
+
+📊 Evaluation Metrics:
+Final Accuracy      : 0.7625
+Best Micro F1       : 0.7625
+Best Micro Precision: 0.7625
+Best Micro Recall   : 0.7625
+Best Micro AUC      : 0.9148
+Final Average Loss  : 0.5784
+
+📊 Evaluation Metrics:
+Final Accuracy      : 0.7928
+Best Micro F1       : 0.7928
+Best Micro Precision: 0.7928
+Best Micro Recall   : 0.7928
+Best Micro AUC      : 0.9317
+Final Average Loss  : 0.4970
+
+📊 Evaluation Metrics:
+Final Accuracy      : 0.7900
+Best Micro F1       : 0.7900
+Best Micro Precision: 0.7900
+Best Micro Recall   : 0.7900
+Best Micro AUC      : 0.9288
+Final Average Loss  : 0.5085
+
+📊 Evaluation Metrics:
+Final Accuracy      : 0.7919
+Best Micro F1       : 0.7919
+Best Micro Precision: 0.7919
+Best Micro Recall   : 0.7919
+Best Micro AUC      : 0.9191
+Final Average Loss  : 0.5958
+
+✅ Best Trial:
+  Accuracy on validation set: 0.8316
+  hidden_size: 512
+  dropout: 0.3492218062494469
+  lr: 0.00013272334531614204
+
+📊 Re-training best model on full training set and evaluating on test set...
+
+📊 Evaluation Metrics:
+Final Accuracy      : 0.8846
+Best Micro F1       : 0.8846
+Best Micro Precision: 0.8846
+Best Micro Recall   : 0.8846
+Best Micro AUC      : 0.9705
+Final Average Loss  : 0.3346
+ending slurm
+Thu Apr 17 21:13:39 MDT 2025
