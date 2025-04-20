@@ -17,7 +17,7 @@ NUM_CLASSES = 3
 BATCH_SIZE = 32
 NUM_EPOCHS = 30  # Increased for deeper training
 PROJECT_PATH = os.path.join(os.getcwd(), "Project")
-MODEL_NAME = "efficientnet_v2_s"  # Tuning this model
+MODEL_NAME = "resnet101"  # Tuning this model
 
 # ===================== DATASET =====================
 class SimpleImageDataset(Dataset):
