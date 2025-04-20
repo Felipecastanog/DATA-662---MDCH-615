@@ -39,6 +39,6 @@ echo "Finished initializing"
 # Add a print statement to confirm the script starts running
 echo "Running Python script"
 
-python /home/carlos.arteagadeanda/redo.py
+python /home/carlos.arteagadeanda/Training_Xcep.py
 
 date
