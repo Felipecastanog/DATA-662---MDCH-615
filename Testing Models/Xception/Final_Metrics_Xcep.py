@@ -86,8 +86,6 @@ print(f"Micro Precision: {micro_precision:.4f}")
 print(f"Micro Recall: {micro_recall:.4f}")
 print(f"Micro F1: {micro_f1:.4f}")
 
-#job 39783
-
 # Test Accuracy: 0.8622
 # Test Loss: 0.6492
 # Micro AUC: 0.9556
